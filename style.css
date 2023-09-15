@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:red;
+}
+
+.parallaxImage {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.twoBlackHoles {
+    height:100vh;
+    background-image:url(twoBlackHoles.jpg)
+}
+
+.galaxies {
+    height:100vh;
+    background-image:url(Galaxies.jpg)
+}
+
+.blackHole {
+    height:100vh;
+    background-image: url(Black\ hole.jpg);
+}
+
+.uniEvo {
+    height:100vh;
+    background-image: url(uniEvo.jpg);
+}
+
+.h1 {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 14px 20px 14px 20px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 50px;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+}
+
+.information {
+    max-width:500px;
+}
